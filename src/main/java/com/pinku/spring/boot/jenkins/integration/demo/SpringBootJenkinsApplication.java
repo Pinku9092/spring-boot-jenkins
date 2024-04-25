@@ -11,7 +11,7 @@ public class SpringBootJenkinsApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "Application deployed successfully using";
+		return "Application deployed successfully using ";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
